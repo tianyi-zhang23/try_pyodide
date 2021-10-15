@@ -1,14 +1,15 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
+      "target": "esnext",
+      "module": "esnext",
       "moduleResolution": "node",
-      "noImplicitAny": false,
+      "noImplicitAny": true,
       "removeComments": true,
       "preserveConstEnums": true,
       "sourceMap": true,
       "forceConsistentCasingInFileNames": true,
       "outDir": "dist",
+      "strict": true,
       "declaration": true
     },
     "include": [
